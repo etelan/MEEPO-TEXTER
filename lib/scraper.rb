@@ -19,9 +19,11 @@ class Scraper
   def processing_check
     if processing?
       puts "Still processing"
+
     else
       puts "CHANGE DETECTED"
       Texter.message
+      exit
     end
   end
 

@@ -9,8 +9,8 @@ class Texter
 
 
 
-    account_sid = 'AC7148592f678727712cd5e2a082e3446c'
-    auth_token = 'f8f1f90121423ef88fe353d10ec9bb6e'
+    account_sid = ENV['SID']
+    auth_token = ENV['TOKEN']
     client = Twilio::REST::Client.new(account_sid, auth_token)
 
     from = ENV['FROM']# Your Twilio number
