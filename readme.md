@@ -1,4 +1,16 @@
-.env example. 
+# What is this?
+Ordering a board from MEEPO. They take a long-ish time to process the board. 
+
+This code will text you if the order status changes. 
+
+Meepo usually sends an email if the order status changes, but as a Teenager, I often miss emails or wifi turns off or something.
+
+## How to install and run
+In your terminal, do bundle install.
+
+Next, type ruby runner.rb
+
+## .env example
 
 FROM='+12000000000'
 
